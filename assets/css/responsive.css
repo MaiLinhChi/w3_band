@@ -1,0 +1,100 @@
+/* PC */
+@media (min-width: 64em) {
+
+}
+
+/* mobile and tablet */
+@media (max-width: 64em)
+{
+    .btn {
+        padding: 15px 15px;
+    }
+
+    .contract-form .form-control {
+        padding: 15px;
+    }
+    
+    #footer .social-list {
+        font-size: 48px;
+    }
+
+    #footer .social-list a {
+        margin: 0 16px;
+    }
+
+    #footer .copy a {
+        padding: 12px;
+        display: inline-block;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .contract-info {
+        line-height: 2;
+    }
+}
+
+/* Mobie */
+@media (max-width: 46.1875em) {
+    #header {
+        /* khi thằng con vuột qua thằng cha thì đóng */
+        overflow: hidden;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    .full-width-btn,
+    .s-col-full {
+        width: 100%;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #header .seach-btn {
+        display: none;
+    }
+
+    #header .menu-mobile-btn {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        /* cho về giá trị mặc định */
+        position: initial;
+        background-color: black;
+    }
+
+    #nav .subnav a {
+        color: aliceblue;
+        padding: 5px 40px;
+    }
+
+    #content .mb-avatar {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .avatar {
+        width: 60%;
+    }
+
+    .contract-form {
+        margin-top: 32px;
+    }
+}
